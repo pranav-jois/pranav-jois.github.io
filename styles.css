@@ -156,7 +156,7 @@ p + ul {
   margin-top: 2%;
   width: var(--cv-sidenav-width); 
   position: sticky; 
-  top: 11%;
+  top: 88px;
   left: 0;
 
   background-color: var(--background-color);
