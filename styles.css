@@ -51,10 +51,12 @@ body {
 }
 
 footer {
-  text-align: center;
-  font-size: 16px;
-  bottom: 0;
-  left: 0;
+  display: block;
+  max-width: 110ch;
+  text-align: center;    
+  margin: 40px auto 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-color);
 }
 
 a:link {
@@ -279,18 +281,30 @@ p + ul {
 .project_box:hover {
   filter: brightness(0.95); /* darkens the whole box slightly */
   border-color: #900603;
+  transition: color 0.2s ease-in-out;
+  transition: filter 0.2s ease-in-out;
 }
 
 /* Hover effect */
 .project_box:hover .project_heading {
   color: #900603; /* all text inside becomes link color */
   border-color: #900603;
+  transition: color 0.2s ease-in-out;
 }
 
 /* Ensure links inside the box inherit the hover color */
 .project_box a {
   color: inherit;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease-in-out;
 }
+
+
+ion-icon {
+  font-size: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: color 0.2s ease-in-out;
+}
+
 

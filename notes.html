@@ -7,6 +7,17 @@
   <link href="styles.css" rel="stylesheet" />
 </head>
 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+  };
+</script>
 <body>
   <div class="mainheader">
     PRANAV JOIS
@@ -23,5 +34,19 @@
     </div>
   </div>
 </body>
+
+<section class="main">
+  <div class="horizontal_center">
+    <p>I will occasionally post expository notes here! Warning: anything posted here is likely to have errors &#8212 please let me know if you notice anything awry! Here is some rendered math:
+      \[
+        \Gamma(z) = \int_0^\infty \text{e}^{-t} \, t^{z - 1} \, \text{d}z
+      \]
+    I can also render math inline! \( \text{e}^{i \pi} = -1\)
+    </p>
+
+  </div>
+</section>
+
+<footer></footer>
 
 </html>
