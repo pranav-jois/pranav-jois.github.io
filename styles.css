@@ -15,6 +15,7 @@
   --project-box-color: #eaeafd;
   --text-color:#3a4454;
   --border-color: #3a4454;
+  --hover-color: #710100;
 
   /* --background-color: #2d3b43;
   --project-box-color: #2d3b43;
@@ -70,7 +71,7 @@ a:visited {
     
 
 a:hover {
-  color: #900603;
+  color: var(--hover-color);
   transition: color 0.2s ease-in-out
 }
 
@@ -279,16 +280,16 @@ p + ul {
 
 
 .project_box:hover {
-  filter: brightness(0.95); /* darkens the whole box slightly */
-  border-color: #900603;
+  filter: brightness(0.97); /* darkens the whole box slightly */
+  border-color: var(--hover-color);
   transition: color 0.2s ease-in-out;
   transition: filter 0.2s ease-in-out;
 }
 
 /* Hover effect */
 .project_box:hover .project_heading {
-  color: #900603; /* all text inside becomes link color */
-  border-color: #900603;
+  color: var(--hover-color); /* all text inside becomes link color */
+  border-color: var(--hover-color);
   transition: color 0.2s ease-in-out;
 }
 
