@@ -256,6 +256,7 @@ p + ul {
   margin-bottom: 70px;
   text-align: center;
   font-size: 18px;
+  text-decoration: none; /* remove underline */
   cursor: pointer; /* show it's interactive */
 } 
 
