@@ -115,7 +115,6 @@ p + ul {
 
 
 
-/* The sidebar menu */
 .topnav {
   height: var(--topnav-main); 
   width: 100%; 
@@ -139,7 +138,6 @@ p + ul {
 }
 
 
-/* The sidebar menu */
 .sidenav {
   float: left;
   margin-top: 2%;
@@ -157,7 +155,6 @@ p + ul {
 }
 
 
-/* The navigation menu links */
 .topnav a {
   padding: var(--topnav-a-padding);
   text-decoration: none;
@@ -167,7 +164,6 @@ p + ul {
 }
 
 
-/* The navigation menu links */
 .sidenav a {
   text-decoration: none;
   display: block;
@@ -259,8 +255,8 @@ p + ul {
   margin-bottom: 70px;
   text-align: center;
   font-size: 18px;
-  text-decoration: none; /* remove underline */
-  cursor: pointer; /* show it's interactive */
+  text-decoration: none; 
+  cursor: pointer; 
 } 
 
 .project_box img {
@@ -280,20 +276,18 @@ p + ul {
 
 
 .project_box:hover {
-  filter: brightness(0.97); /* darkens the whole box slightly */
+  filter: brightness(0.97);
   border-color: var(--hover-color);
   transition: color 0.2s ease-in-out;
   transition: filter 0.2s ease-in-out;
 }
 
-/* Hover effect */
 .project_box:hover .project_heading {
-  color: var(--hover-color); /* all text inside becomes link color */
+  color: var(--hover-color); 
   border-color: var(--hover-color);
   transition: color 0.2s ease-in-out;
 }
 
-/* Ensure links inside the box inherit the hover color */
 .project_box a {
   color: inherit;
   text-decoration: none;
