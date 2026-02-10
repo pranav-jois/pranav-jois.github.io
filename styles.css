@@ -10,17 +10,25 @@
   --cv-max-width: 58ch;
   --cv-sidenav-width: 29.5%;
   --cv-main-shift: 33%; 
-
+/* 
   --background-color: #eaeafd;
   --project-box-color: #eaeafd;
   --text-color:#3a4454;
   --border-color: #3a4454;
+  --hover-color: #710100; */
+
+  --background-color: #f8f8ff;
+  --project-box-color: #f8f8ff;
+  --text-color: #222222;
+  --border-color: #222222;
   --hover-color: #710100;
+
 
   /* --background-color: #2d3b43;
   --project-box-color: #2d3b43;
   --text-color: #e6e6e6;
-  --border-color: #e6e6e6; */
+  --border-color: #e6e6e6;
+  --hover-color: #710100;  */
 
   --line-height: 1.8;
 }
